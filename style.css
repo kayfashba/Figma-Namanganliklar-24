@@ -1,0 +1,424 @@
+body{
+    padding: 0;
+    margin:0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.navigate-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.navigate-panel{
+    background-color: #F6F6F9;
+    border-top: 5px solid #295091;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+.logo{
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.valyuta{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.valyuta h3{
+    color:#295091 ;
+}
+.valyuta p{
+    color: #515151;
+}
+.btn-search-navigate{
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    align-items: center;
+    justify-content:center;
+}
+.language{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 20px;
+    background-color: white;
+}
+.link-telegram-btn{
+    background-image:linear-gradient(45deg , #1E96C8 , #37AEE2) ;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    gap: 5px;
+    justify-content: center;
+    width: 146px;
+    height: 40px;
+    cursor: pointer;
+}
+.navigate-left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navigate-right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+
+
+
+.navigate-categories{
+    background-color: white;
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #515151;
+}
+a:hover{
+    cursor: pointer;
+    color: #295091;
+    text-decoration: underline;
+}
+
+
+.navigate-reklama{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 92%;
+    margin-top: 30px;
+}
+
+
+
+.covid-19{
+    width: 83%;
+    border-radius: 20px;
+    display: flex;
+    background-color: #F6F6F9;
+    padding: 20px;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+.covid19-box1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: -50px;
+}
+.covid19-box1 p{
+    font-weight: bolder;
+}
+.covid19-box2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 100px;
+    line-height: 0.2;
+    border-left: 2px solid #DB0000;
+    padding-left: 50px;
+}
+.covid19-box2 p{
+    color: #DB0000;
+}
+.covid19-box3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 80px;
+    line-height: 0.2;
+    border-left: 2px solid #ba747483;
+    padding-left: 50px;
+}
+.covid19-box3 p{
+    color: rgb(72, 191, 72);
+}
+.covid19-box4{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 60px;
+    line-height: 0.2;
+    border-left: 2px solid #ba747483;
+    padding-left: 50px;
+}
+
+
+.information-cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 89%;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 75px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card{
+    color: #515151;
+}
+.card-info{
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+
+
+.notification-logo-text{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 10px;
+    font-size: 20px;
+}
+.notification-logo{
+    width: 31px;
+    height: 35px;
+}
+.notification-menu{
+    background-image: linear-gradient(45deg ,rgb(214, 188, 188) ,  #EFBA542E);
+    width: 83%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    align-items: center;
+    padding: 20px;
+}
+.on-off-notification{
+    background-image: linear-gradient(90deg , #FE5C28 , #FF8B36E5 90%);
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.section1-box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.data-box{
+    display: flex;
+    align-items: center;
+    color: #515151;
+    margin-top: -10px;
+}
+.section1{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.btn-more-news{
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #295093;
+    display: flex;
+    margin: 0 auto;
+    cursor: pointer;
+
+}
+.section1-box-info{
+    margin-top: -15px;
+}
+.right-boxs{
+    background-color: #F6F6F9;
+    padding: 20px;
+    border-radius: 10px;
+}
+.right-boxs hr{
+    height: 2px;
+    background-color: #E4E4E4;
+    border: none;
+}
+.section1-right-box-reklama-img{
+    margin-top: 20px;
+}
+.section1-title{
+    margin-left: 110px;
+    margin-top: 50px;
+}
+
+
+
+.download-app-menu{
+    background-color: #F6F6F9;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.app-menu-text h2{
+    color:#295091 ;
+}
+.app-menu-text p{
+    font-weight: bold;
+}
+
+
+footer{
+    background-color: #295093;
+    font-weight: bold;
+    margin-top: 50px;
+    color: white;
+    padding: 20px;
+}
+.footer-logo{
+    padding: 10px;
+    background-color: #133C82;
+    border-radius: 10px;
+}
+.footer-logo-link{
+    display: flex;
+    align-items: center;
+    width: 87%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.footer-text-link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.link-telegram-btn2{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    color: #295093;
+    gap: 5px;
+    justify-content: center;
+    width: 146px;
+    height: 40px;   
+}
+footer hr{
+    height: 3px;
+    background-color: #133C82;
+    border: none;
+    width: 87%;
+    margin-top: 20px;
+}
+.footer-box-texts{
+    display: flex;
+    width: 87%;
+    margin: 0 auto;
+    justify-content:start;
+    gap: 150px;
+}
+.footer-item{
+    color: white;
+}
+.footer-item:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+
+
+/* Стиль модального окна (фон) */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.95);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Содержимое модального окна */
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Активное состояние */
+  .modal.show {
+    opacity: 1;
+    pointer-events: auto;
+    transform: scale(1);
+  }
+.modal-content p{
+    color: #295093;
+    text-align: center;
+    font-weight: bold;
+}
+.link-telegram-btn-modal{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    background-image:linear-gradient(45deg , #1E96C8 , #37AEE2) ;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    gap: 5px;
+    justify-content: center;
+    width: 146px;
+    height: 40px;
+    cursor: pointer;
+}
+.close{
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+}
